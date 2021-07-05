@@ -7,12 +7,12 @@ namespace DoubleLinkedList
     {
         static void Main(string[] args)
         {
-            DLList<string> dlist = new();
-            dlist.AddFirst("A");
-            dlist.AddLast("B");
-            dlist.AddLast("C");
-            dlist.AddLast("D");
-            dlist.AddLast("E");
+            DLList<int> dlist = new();
+            dlist.AddFirst(1);
+            dlist.AddLast(2);
+            dlist.AddLast(3);
+            dlist.AddLast(4);
+            dlist.AddLast(5);
             foreach (var d in dlist) { Console.WriteLine(d); }
             Console.WriteLine("--------------AND NOW SHOW REVERSE LIST---------------");
             dlist.Reverse();
