@@ -4,6 +4,10 @@ using System.Linq;
 
 namespace CheckParenthesisBalance
 {
+    /*
+     Проверить сбалансированность скобочной структуры в произвольном выражении ((1+3)()(4+(3-5)))
+     */
+
     public class Program
     {
         static string line = "((1+3)()(4+(3-5)))";

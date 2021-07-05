@@ -4,7 +4,12 @@ using System.Text;
 namespace RomanToInt
 {
     class Program
-    {        
+    {
+        /*
+         * Написать функцию, которая преобразует строку с римским числом в целое 
+         * (иными словами, написать тело функции public int RomanToInt(string s)). 
+         * Римское число не больше 3000.
+         */
         static void Main(string[] args)
         {
             Console.WriteLine(RomanToInt("mmcmxcix"));
